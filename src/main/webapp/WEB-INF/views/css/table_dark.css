@@ -1,0 +1,77 @@
+body {
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.divMenu {
+    padding: 24px 0;
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 1px solid black;
+    margin: 20px;
+}
+
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif, serif;
+    font-size: 14px;
+    background: white;
+    max-width: 70%;
+    width: 70%;
+    border-collapse: collapse;
+    text-align: left;
+    margin: 0 auto 0 auto;
+}
+th {
+    font-weight: normal;
+    color: black;
+    border-bottom: 2px solid black;
+    padding: 10px 8px;
+}
+td {
+    color: black;
+    padding: 9px 8px;
+    transition: .3s linear;
+}
+tr:hover td {
+    color: black;
+}
+header{
+    height: 40px;
+}
+
+.formTitle{
+    text-align: center;
+    padding: 5px 0;
+}
+.submit:first-child {
+    padding: 2px;
+    width: 60px;
+    margin-right: 10px;
+}
+.submit:last-child {
+    padding: 2px;
+    width: 60px;
+    margin-left: 10px;
+}
+.formStyle{
+    padding: 15px 0;
+    box-shadow: 0 0 5px 5px #d3d3d3;
+    width: 300px;
+    margin: 50px auto;
+    border-radius: 3%;
+    background-color: #cfcfcf;
+}
+.errorMassage {
+    color: red;
+}
+.successMassage {
+    color: green;
+}
+.select {
+    text-align: center;
+    padding: 10px 0;
+    max-width: 300px;
+}
